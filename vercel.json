@@ -1,9 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "http://152.42.208.53/$1",
-      "permanent": true
+      "destination": "http://152.42.208.53/$1"
     }
   ]
 }
