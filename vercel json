@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "http://152.42.208.53:80/",
+      "destination": "http://152.42.208.53/",
       "permanent": true
     }
   ]
