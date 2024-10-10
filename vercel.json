@@ -1,8 +1,9 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "http://206.189.46.189/$1"
+      "src": "/(.*)",
+      "dest": "http://206.189.46.189/$1",
+      "proxy": true
     }
   ]
 }
