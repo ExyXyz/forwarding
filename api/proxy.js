@@ -6,7 +6,7 @@ export default async function handler(req, res) {
     const response = await axios({
       method: req.method,
       url: `http://206.189.46.189${req.url}`,
-      timeout: 60000 // 60 seconds timeout
+      timeout: 99000 // 60 seconds timeout
     });
 
     // Send the VPS response back to the client
