@@ -7,12 +7,7 @@
   ],
   "functions": {
     "api/proxy.js": {
-      "maxDuration": 60
-    }
-  },
-  "build": {
-    "env": {
-      "VERCEL_DISABLE_TOOLBAR": "1"
+      "maxDuration": 99
     }
   }
 }
