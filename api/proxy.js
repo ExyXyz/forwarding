@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   try {
     // Check if the request is to the root domain
     if (req.url === '/') {
-      return res.redirect('https://ekushi.xyz');
+      return res.redirect('http://206.189.46.189/');
     }
 
     // Forward the request to your VPS
