@@ -9,5 +9,6 @@
     "api/proxy.js": {
       "maxDuration": 60
     }
-  }
+  },
+  "debug": false
 }
