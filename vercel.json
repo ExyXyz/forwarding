@@ -2,7 +2,12 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "http://206.189.46.189/$1"
+      "destination": "/api/proxy"
     }
-  ]
+  ],
+  "functions": {
+    "api/proxy.js": {
+      "maxDuration": 60
+    }
+  }
 }
