@@ -7,7 +7,7 @@
   ],
   "functions": {
     "api/proxy.js": {
-      "maxDuration": 99
+      "maxDuration": 80
     }
   }
 }
